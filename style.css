@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*  */
+.one{
+    position: relative;
+    background-image: url(/media/hero_img-min.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+.two{
+    position: relative;
+    background-image: url(/media/img2-min.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+.three{
+    position: relative;
+    background-image: url(/media/img3-min.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+/*  */
+.hero{
+    position: relative;
+    top: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.body{
+    position: relative;
+    top: 40%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.foot{
+    position: relative;
+    top: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/*  */
+.hero span{
+    display: inline;
+    font-size: 26px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(44, 58, 71,1.0);
+    transition: background-color 0.15s ease;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+}
+.body span{
+    display: inline;
+    font-size: 26px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(179, 55, 113,1.0);
+    transition: background-color 0.15s ease;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+}
+.foot span{
+    display: inline;
+    font-size: 26px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(60, 99, 130,1.0);
+    transition: background-color 0.15s ease;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+}
+/*  */
+.hero span:hover{
+    background-color: white;
+    color: rgba(44, 58, 71,1.0);
+}
+.body span:hover{
+    background-color: white;
+    color: rgba(179, 55, 113,1.0);
+}
+.foot span:hover{
+    background-color: white;
+    color: rgba(60, 99, 130,1.0);
+}
+/*  */
+.hero a{
+    text-decoration: none;
+    background-color: rgba(59, 59, 152,1.0);
+    transition: background-color 0.15s ease;
+    color: white;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+body a{
+    text-decoration: none;
+    background-color: rgba(46, 204, 113,1.0);
+    transition: background-color 0.15s ease;
+    color: white;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 80px;
+    border: none;
+    border-radius: 5px;
+}
+.body a:nth-child(2){
+    text-decoration: none;
+    background-color: rgba(231, 76, 60,1.0);
+    transition: background-color 0.15s ease;
+    color: white;
+}
+/*  */
+.hero a:hover{
+    background-color: white;
+    color: rgba(59, 59, 152,1.0);
+}
+.body a:hover{
+    background-color: white;
+    color: rgba(46, 204, 113,1.0);
+}
+.body a:nth-child(2):hover{
+    background-color: white;
+    color: rgba(46, 204, 113,1.0);
+}
+
+section p{
+    padding: 100px 50px;
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 25px;
+    background-color: rgba(202, 211, 200,1.0);
+    color: black;
+}
